@@ -16,9 +16,9 @@ function displayResults(tip, totalBill, perGuest) {
 
     resultsBox.innerHTML = `
     <ul class="list">
-    <li>The tip is ${tip.toFixed(2)}</li>
-    <li>The total bill is ${totalBill.toFixed(2)}</li>
-    <li>Each person must pay ${perGuest.toFixed(2)}</li>
+    <li>The tip is £${tip.toFixed(2)}</li>
+    <li>The total bill is £${totalBill.toFixed(2)}</li>
+    <li>Each person must pay £${perGuest.toFixed(2)}</li>
     </ul>
     `
 }
